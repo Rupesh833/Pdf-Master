@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFMaster - Your Ultimate PDF Solution</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-file-pdf"></i>
+                    <span>PDFMaster</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <button class="btn login-btn">Log In</button>
+                    <button class="btn signup-btn">Sign Up</button>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>All Your PDF Tools in One Place</h1>
+                <p>Merge, split, compress, convert, and edit PDFs with our powerful online tools. Fast, secure, and easy to use.</p>
+                <div class="cta-buttons">
+                    <button class="btn primary-btn">Try for Free</button>
+                    <button class="btn secondary-btn">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400" alt="PDF Tools Illustration">
+            </div>
+        </div>
+    </section>
+
+    <section class="tools-section" id="tools">
+        <div class="container">
+            <h2 class="section-title">Our PDF Tools</h2>
+            <p class="section-subtitle">Select the tool you need to work with your PDF files</p>
+            
+            <div class="tools-grid">
+                <!-- Merge PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-object-group"></i>
+                    </div>
+                    <h3>Merge PDF</h3>
+                    <p>Combine multiple PDFs into one file in the order you want.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- Split PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Split PDF</h3>
+                    <p>Extract pages from a PDF or split into multiple files.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- Compress PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-compress-alt"></i>
+                    </div>
+                    <h3>Compress PDF</h3>
+                    <p>Reduce file size while keeping quality as much as possible.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- PDF to Word -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-file-word"></i>
+                    </div>
+                    <h3>PDF to Word</h3>
+                    <p>Convert PDF files to editable Word documents.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- Word to PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Word to PDF</h3>
+                    <p>Convert Word documents to PDF files.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- PDF to Excel -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-file-excel"></i>
+                    </div>
+                    <h3>PDF to Excel</h3>
+                    <p>Convert PDF tables to editable Excel spreadsheets.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- PDF to PPT -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-file-powerpoint"></i>
+                    </div>
+                    <h3>PDF to PPT</h3>
+                    <p>Convert PDF files to editable PowerPoint presentations.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- PDF to JPG -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-file-image"></i>
+                    </div>
+                    <h3>PDF to JPG</h3>
+                    <p>Convert each PDF page to JPG images.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- JPG to PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>JPG to PDF</h3>
+                    <p>Combine multiple JPG images into a single PDF.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- Edit PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Edit PDF</h3>
+                    <p>Add text, images, shapes and more to your PDF.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- OCR PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>OCR PDF</h3>
+                    <p>Extract text from scanned PDFs and images.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+                
+                <!-- Protect PDF -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Protect PDF</h3>
+                    <p>Add passwords and permissions to your PDF files.</p>
+                    <button class="btn tool-btn">Select Files</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose PDFMaster?</h2>
+            <p class="section-subtitle">We provide the best PDF tools with amazing features</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Processing</h3>
+                    <p>All files are processed in the cloud and deleted after 2 hours. Your data stays private.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Processing</h3>
+                    <p>Our servers work at lightning speed to process your files as quickly as possible.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Based</h3>
+                    <p>No installation needed. All tools work directly in your web browser.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Works perfectly on all devices including smartphones and tablets.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3>No Limits</h3>
+                    <p>No watermarks, no file size limits, and no daily usage limits.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Easy to Use</h3>
+                    <p>Simple and intuitive interface that anyone can use without training.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Process your PDF files in just 3 simple steps</p>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Select Files</h3>
+                        <p>Choose files from your computer, Google Drive, Dropbox, or drag and drop them into the page.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Process File</h3>
+                        <p>Select the operation you want to perform. Our tool will process your file automatically.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Download</h3>
+                        <p>Your file is ready! Download it to your device or save it directly to Google Drive or Dropbox.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <p class="section-subtitle">Choose the plan that fits your needs</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0<span>/month</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Basic PDF tools</li>
+                        <li><i class="fas fa-check"></i> File size limit: 50MB</li>
+                        <li><i class="fas fa-check"></i> No watermarks</li>
+                        <li><i class="fas fa-times"></i> Priority processing</li>
+                        <li><i class="fas fa-times"></i> Advanced tools</li>
+                    </ul>
+                    <button class="btn pricing-btn">Get Started</button>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price">$6<span>/month</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> All PDF tools</li>
+                        <li><i class="fas fa-check"></i> File size limit: 500MB</li>
+                        <li><i class="fas fa-check"></i> No watermarks</li>
+                        <li><i class="fas fa-check"></i> Priority processing</li>
+                        <li><i class="fas fa-check"></i> Advanced tools</li>
+                    </ul>
+                    <button class="btn pricing-btn primary-btn">Get Started</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Business</h3>
+                    <div class="price">$15<span>/month</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> All PDF tools</li>
+                        <li><i class="fas fa-check"></i> No file size limits</li>
+                        <li><i class="fas fa-check"></i> No watermarks</li>
+                        <li><i class="fas fa-check"></i> Highest priority</li>
+                        <li><i class="fas fa-check"></i> Team collaboration</li>
+                    </ul>
+                    <button class="btn pricing-btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Users Say</h2>
+            <p class="section-subtitle">Trusted by millions of users worldwide</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="user-info">
+                        <img src="https://via.placeholder.com/60" alt="User" class="user-img">
+                        <div class="user-details">
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Manager</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"PDFMaster has saved me countless hours of work. The merge tool is incredibly fast and the quality is perfect every time."</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="user-info">
+                        <img src="https://via.placeholder.com/60" alt="User" class="user-img">
+                        <div class="user-details">
+                            <h4>Michael Chen</h4>
+                            <p>University Professor</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"As an educator, I need to convert many documents to PDF. This service makes the process effortless and reliable."</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="user-info">
+                        <img src="https://via.placeholder.com/60" alt="User" class="user-img">
+                        <div class="user-details">
+                            <h4>David Wilson</h4>
+                            <p>Small Business Owner</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"The OCR feature is a game-changer for my business. It accurately converts scanned documents to editable text."</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your PDF Workflow?</h2>
+                <p>Join millions of users who trust PDFMaster for their document needs.</p>
+                <button class="btn primary-btn large-btn">Get Started Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>PDFMaster</span>
+                    </div>
+                    <p>The ultimate solution for all your PDF needs. Fast, secure, and easy to use.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li><a href="#">Merge PDF</a></li>
+                        <li><a href="#">Split PDF</a></li>
+                        <li><a href="#">Compress PDF</a></li>
+                        <li><a href="#">PDF to Word</a></li>
+                        <li><a href="#">Word to PDF</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookies Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 PDFMaster. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="file-upload-modal" id="uploadModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Upload Your Files</h3>
+            <div class="upload-options">
+                <div class="upload-option">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>From Computer</p>
+                    <input type="file" id="fileInput" multiple>
+                </div>
+                <div class="upload-option">
+                    <i class="fab fa-google-drive"></i>
+                    <p>Google Drive</p>
+                </div>
+                <div class="upload-option">
+                    <i class="fab fa-dropbox"></i>
+                    <p>Dropbox</p>
+                </div>
+                <div class="upload-option">
+                    <i class="fas fa-link"></i>
+                    <p>From URL</p>
+                </div>
+            </div>
+            <div class="drag-drop-area" id="dropArea">
+                <i class="fas fa-file-upload"></i>
+                <p>Or drag and drop files here</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
