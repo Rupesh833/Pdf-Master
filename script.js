@@ -170,20 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link.classList.remove('active');
             if (link.getAttribute('href') === `#${current}`) {
                 link.classList.add('active');
-                import { PDFDocument } from 'pdf-lib';
-
-async function mergePDFs(pdfFiles) {
-  const mergedPdf = await PDFDocument.create();
-  
-  for (const pdfFile of pdfFiles) {
-    const pdfBytes = await pdfFile.arrayBuffer();
-    const pdfDoc = await PDFDocument.load(pdfBytes);
-    const pages = await mergedPdf.copyPages(pdfDoc, pdfDoc.getPageIndices());
-    pages.forEach(page => mergedPdf.addPage(page));
-  }
-  
-  const mergedPdfBytes = await mergedPdf.save();
-  return mergedPdfBytes;
+            
 }
             }
         });
